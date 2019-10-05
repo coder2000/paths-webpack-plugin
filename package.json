@@ -31,6 +31,13 @@
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.1.0",
-    "standard-version": "^7.0.0"
+    "standard-version": "^7.0.0",
+    "webpack": "^4.41.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.41.0"
+  },
+  "dependencies": {
+    "enhanced-resolve": "^4.1.0"
   }
 }
