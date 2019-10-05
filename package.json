@@ -30,8 +30,17 @@
     "node": ">=12.10.0 <13.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/node": "^12.7.11",
+    "@types/webpack": "^4.39.2",
+    "commitizen": "^4.0.3",
     "conventional-changelog-conventionalcommits": "^4.1.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "gulp": "^4.0.2",
+    "husky": "^3.0.8",
     "standard-version": "^7.0.0",
+    "typescript": "^3.6.3",
     "webpack": "^4.41.0"
   },
   "peerDependencies": {
@@ -39,5 +48,16 @@
   },
   "dependencies": {
     "enhanced-resolve": "^4.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
