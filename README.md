@@ -1,6 +1,7 @@
 # Welcome to paths-webpack-plugin 👋
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D12.10.0%20%3C13.0.0-blue.svg)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 > Webpack plugin to load modules with tsconfig paths configuration
 
