@@ -1,7 +1,7 @@
 {
   "name": "paths-webpack-plugin",
   "version": "0.0.1",
-  "description": "Load modules according to TsConfig paths configuration",
+  "description": "Webpack plugin to load modules with tsconfig paths configuration",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +25,9 @@
     "url": "https://github.com/coder2000/paths-webpack-plugin/issues"
   },
   "homepage": "https://github.com/coder2000/paths-webpack-plugin#readme",
+  "engines": {
+    "node": ">=12.10.0 <13.0.0"
+  },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.1.0",
     "standard-version": "^7.0.0"
